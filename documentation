@@ -1,0 +1,16 @@
+1. put this folder in htdocs .
+2. Create a data base named as project5.
+3. Inside it create table using
+CREATE TABLE IF NOT EXISTS `cvsss` (
+  `keyword` varchar(255) NOT NULL,
+  `tag` varchar(255) NOT NULL
+)  ;
+
+table is creted,
+4. on browser write localhost/4/index.php.
+5. Youwill see a upload form.
+6. By clicking on choose file button chose file to be uploaded.
+7. If the file choosen ic csv then it will be uploaded otherwise it will so alert to choose only csv file.
+8.it will give you to choose again.
+
+...........................#####...............................
